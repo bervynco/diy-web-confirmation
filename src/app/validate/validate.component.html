@@ -1,0 +1,9 @@
+<div class="validate-container">
+    <div class="validate-content">
+        <div class="space-eater"></div>
+        <div class="content" [ngClass]="isValidated == true ? 'success-validation': 'error-validation'">
+            {{validationMessage}}  
+        </div>
+        <div class="space-eater"></div>
+    </div>
+</div>

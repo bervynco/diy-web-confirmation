@@ -1,0 +1,103 @@
+reset-password {
+    width: 100%;
+    height: 100%;
+}
+
+.reset-container {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+    height: 100%;
+}
+
+.reset-container > .space-eater {
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.reset-container > .reset-panel {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.reset-container > .reset-panel > .space-eater{
+    display: flex;
+    flex: 0.35;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+.reset-container > .reset-panel > .reset-form{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.reset-container > .reset-panel > .reset-form > .reset-header-panel{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+.reset-form > .reset-header-panel > .reset-header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    font-size: 26px;
+    color: #EB4E29;
+    font-weight: bolder;
+    background: /* gradient can be an image */
+    linear-gradient(
+      to right, 
+      #EB4E29 0%,
+      #ffa73d  100%
+    )
+    left 
+    bottom
+    no-repeat;
+    background-size:100% 3px ;
+    padding:10px;
+}
+.reset-form > .reset-header-panel > .reset-subheader {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 14px;
+    color: rgb(120,120,120);
+}
+
+.reset-form > .form-content {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.form-content > .space-eater {
+    display: flex;
+    flex: 0.10;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}

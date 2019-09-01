@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app-container">
+	<div class="header-container" *ngIf="!isReport">
+		<div class="space-eater"></div>
+		<div class="logo-container">
+			<img class="logo" src="../assets/logo/diy-logo-transparent.png">
+		</div>
+	</div>
+	<div class="content-container">
+		<router-outlet></router-outlet>
+	</div>
+	<div class="footer-container" *ngIf="!isReport">
+		<div class="footer-content">&copy; Copyright 2019. All rights reserved</div>
+    </div>
+</div>
+
+

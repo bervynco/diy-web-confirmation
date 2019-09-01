@@ -1,0 +1,181 @@
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: rgb(245,245,245);
+}
+
+/* Inputs*/
+input, button, submit {
+    border: none;
+  }
+  
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=time],
+input[type=url],
+textarea {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: transparent;
+    margin-bottom: 4%;
+    border-bottom: 1px solid #ccc;
+    padding: 2%;
+    color: #555555;
+    border-radius: 3px;
+}
+
+select {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: transparent;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 2%;
+    color: #555555;
+    border-radius: 3px;
+    background-color: #FCFEFF;
+}
+
+select:hover, select:focus {
+    border: 2px solid #EB4E29;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999999;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #EB4E29;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+textarea:hover, textarea:focus {
+border: 2px solid #EB4E29;
+/* border-color: #EB4E29; */
+}
+
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+input::-webkit-input-placeholder 
+{
+    text-align: left;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+.input-group > .label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.submit-button {
+    position: relative;
+    height: 45px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* color: #EB4E29; */
+    color: whitesmoke;
+    background: rgba(235, 78, 41, 1);
+    /* background: transparent; */
+    border: 1px solid rgba(235, 78, 41, 0.5);
+    border-radius: 2px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+}
+.cancel-button {
+    position: relative;
+    height: 45px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* color: #EB4E29; */
+    color: Black;
+    background: rgba(255,255,255, 1);
+    /* background: transparent; */
+    border: 1px solid rgba(100,100,100, 0.5);
+    border-radius: 2px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+}

@@ -1,0 +1,30 @@
+report {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.report-container {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+    height: 100%;
+    width: 100%;
+}
+
+.report-container, .report-container > .chart-container {
+    flex-shrink: 0 !important;
+}
+
+.report-container > .chart-container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+    height: 100%;
+    width: 100%;
+}

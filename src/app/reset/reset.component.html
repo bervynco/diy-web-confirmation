@@ -1,0 +1,26 @@
+<div class="reset-container">
+    <div class="space-eater"></div>
+    <div class="reset-panel">
+        <div class="space-eater"></div>
+        <form class="reset-form">
+            <div class="reset-header-panel">
+                <p class="reset-header" > Reset Password </p>
+                <p class="reset-subheader"> Please create your new password below.</p>
+            </div>
+            <div class="form-content">
+                <div class="space-eater"></div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" required="required" formControlName="password"/>
+                </div>
+                <div class="space-eater"></div>
+                <div class="input-group">
+                    <input type="password" placeholder="Confirm Password" required="required" formControlName="confirmPassword"/>
+                </div>
+                <div class="space-eater"></div>
+                <button type="submit" class="submit-button" [disabled]="!resetPassword.valid">Reset your password </button>
+            </div>
+        </form>
+        <div class="space-eater"></div>
+    </div>
+    <div class="space-eater"></div>
+</div>

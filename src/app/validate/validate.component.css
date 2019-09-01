@@ -1,0 +1,52 @@
+validate {
+    width: 100%;
+    height: 100%;
+}
+
+.validate-container {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+    height: 100%;
+}
+
+.validate-container > .validate-content {
+    display: flex;
+    flex: 0.2;
+    flex-direction: row;
+    align-content: stretch;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.validate-container > .validate-content > .space-eater {
+    display: flex;
+    flex:0.25;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.validate-container > .validate-content > .content {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    align-items: stretch;
+    align-self: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.success-validation {
+    background-color: rgba(155,238,144, 0.3);
+    border: 2px solid rgba(144,188,143, 1);
+    color: rgba(0,100,0,1);
+}
+
+.error-validation {
+    background-color: rgba(240,128,128, 0.3);
+    border: 2px solid rgba(178,34,34, 1);
+    color: rgba(139,0,0,1);
+}
