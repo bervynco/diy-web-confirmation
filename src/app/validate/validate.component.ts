@@ -1,10 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'validate',
-  templateUrl: './validate.component.html',
-  styleUrls: ['./validate.component.css'],
-  encapsulation: ViewEncapsulation.None
+  	selector: 'validate',
+  	templateUrl: './validate.component.html',
+  	styleUrls: ['./validate.component.css'],
+  	encapsulation: ViewEncapsulation.None
 })
 export class ValidateComponent implements OnInit {
 	isValidated:boolean = true;

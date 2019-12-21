@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  	selector: 'app-report',
+  	selector: 'report',
   	templateUrl: './report.component.html',
 	styleUrls: ['./report.component.css'],
 	encapsulation: ViewEncapsulation.None  
